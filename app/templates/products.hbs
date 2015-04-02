@@ -1,0 +1,7 @@
+<ul>
+{{#each product in controller.model.products}}
+{{log product}}
+
+  <li>{{#link-to 'product' product}}{{product.name}}{{/link-to}}</li>
+{{/each}}
+</ul>

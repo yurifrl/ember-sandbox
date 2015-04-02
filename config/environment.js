@@ -13,6 +13,10 @@ module.exports = function(environment) {
       }
     },
 
+    contentSecurityPolicy: {
+      'default-src': "'self' http://ember.dev:35729 *.lvh.me/api/*",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
