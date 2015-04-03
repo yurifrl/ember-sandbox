@@ -1,3 +1,5 @@
+/* global Ember */
+
 export default Ember.Controller.extend({
   todos: [
     Ember.Object.create({ isDone: true }),
