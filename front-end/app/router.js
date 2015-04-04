@@ -9,4 +9,7 @@ export default Router.map(function() {
   this.resource('contacts', function() {
     this.resource('contact', { path: '/:contact_id' });
   });
+  this.resource('posts', function() {
+    this.resource('post', { path: '/:post_id' });
+  });
 });
